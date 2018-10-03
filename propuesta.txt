@@ -1,0 +1,18 @@
+--------------------------------------------------
+Problemática:
+Usuario que tiene una incidencia (se le enciende una luz amarilla en el cuadro de mando) con su único coche modelo familiar, que aún está en garantía
+
+--------------------------------------------------
+Ideas:
+- Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario,….
+
+--------------------------------------------------
+Mapa de Stakeholders:
+- Director de Ventas
+- Director de Postventa
+- Director de Taller
+- Director de Compras
+
+--------------------------------------------------
+Descripción de usuario:
+- He puesto coche único y familiar porque me parece más dramático, ...
