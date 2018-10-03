@@ -2,17 +2,39 @@
 Problemática:
 Usuario que tiene una incidencia (se le enciende una luz amarilla en el cuadro de mando) con su único coche modelo familiar, que aún está en garantía
 
+El problema, desde el punto de vista del concesionario, es que tengamos un cliente que nos pueda responsabilizar de que le hayamos vendido un vehículo:
+- que no cumpla los estándares de calidad del sector en el momento actual
+- que vendimos sabiendo que podría fallar
+- para el que no estamos preparados para reparar con agilidad
+- que, si hay que enviarlo al fabricante, no disponemos de vehículo de sustitución para que él pueda seguir haciendo vida normal
+
 --------------------------------------------------
 Ideas:
-- Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario,….
+- Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario
+- Si el fabricante monitoriza el vehículo, también podría informar al concesionario. Al estar más cerca del cliente y hacer tenido trato personal con él, podemos ofrecerle ayuda: asistencia en carretera o mecánica
 
 --------------------------------------------------
 Mapa de Stakeholders:
 - Director de Ventas
+  Interés: incrementar las ventas
+  Responsabilidad: Informar sobre las ventajas de la posventa en el momento de la venta, por lo que este servicio sería un facilitador de la compra
 - Director de Postventa
+  Interés: satisfacción del cliente para evitar reclamaciones y dañar la imagen de la marca y del propio concesionario
+  Responsabilidad: Coordinar todos los proveedores para que el cliente perciba que es atendido
 - Director de Taller
+  Interés: 
+  Responsabilidad:
 - Director de Compras
+  Interés:
+  Responsabilidad:
 
 --------------------------------------------------
 Descripción de usuario:
 - He puesto coche único y familiar porque me parece más dramático, ...
+
+--------------------------------------------------
+Mapa de empatía
+
+
+--------------------------------------------------
+Hills
