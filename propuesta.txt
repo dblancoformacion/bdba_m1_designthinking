@@ -1,50 +1,137 @@
 -- 1 ------------------------------------------------
 Traslación de la problemática lanzada (reto): CONCESIONARIO
-Usuario que tiene una incidencia (se le enciende una luz amarilla en el cuadro de mando) con su único coche modelo familiar, que aún está en garantía
+Usuario que tiene una incidencia con su coche (se le enciende una luz en el cuadro de mandos)
 
 Problemática aterrizada y contextualizada:
-El problema, desde el punto de vista del concesionario, es que tengamos un cliente que nos pueda responsabilizar de que le hayamos vendido un vehículo:
-- que no cumpla los estándares de calidad del sector en el momento actual
-- que vendimos sabiendo que podría fallar
-- para el que no estamos preparados para reparar con agilidad
-- que, si hay que enviarlo al fabricante, no disponemos de vehículo de sustitución para que él pueda seguir haciendo vida normal
+	Realizamos el análisis para un usuario que ya tiene instalado un asistente virtual en el vehículo (si aún no lo tiene, le instalamos un módulo externo que se lo proporcione cuando contrate nuestro servicio; si el vehículo tiene o no garantía, el problema es el mismo, realmente sólo es cuestión de quién asume el coste). 
 
-Ideas:
-- Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario
-- Si el fabricante monitoriza el vehículo, también podría informar al concesionario. Al estar más cerca del cliente y hacer tenido trato personal con él, podemos ofrecerle ayuda: asistencia en carretera o mecánica
+	El problema/oportunidad, desde el punto de vista del concesionario, es que tengamos un cliente que nos pueda responsabilizar de que le hayamos vendido un vehículo:
+	- que no cumpla los estándares de calidad del sector en el momento actual
+	- que vendimos sabiendo que podría fallar
+	- para el que no estamos preparados para reparar con agilidad
+	- que, si hay que enviarlo al fabricante, no disponemos de vehículo de sustitución para que él pueda seguir haciendo vida normal
+
+Meta:
+	- Diseñar el servicio que acompaña al asistente virtual (entendiendo éste como únicamente el dispositivo interfaz entre el vehículo y el concesionario/fabricante): este servicio tendrá como objetivo facilitarle la vida en lo posible al usuario, enviándole una grúa o mecánico en ruta, dándole instrucciones de cómo poder continuar, realizando las gestiones necesarias para que esta incidencia apenas le afecte en su vida cotidiana.
+
+Ideas y datos previamente considerados:
+	- Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario
+	- Si el fabricante monitoriza el vehículo, también podría informar al concesionario. Al estar más cerca del cliente y hacer tenido trato personal con él, podemos ofrecerle ayuda: asistencia en carretera o mecánica
+	- hay averías que se pueden reparar en remoto (concesionari WV)
+	- relación fabricante-concesionario
+	- casi todos los concesionarios tienen taller
+	- asistente virtual que se puede incluir
+	- ver el manual del coche en la pantalla
+	- incorporar esa tecnología a vehículos existentes
+	- 21% de averías de tipo eléctrico
+	- 7% temas de climatización
+	- tranquilizar sobre la luz, saber qué es exactamente
+
 
 -- 2 ------------------------------------------------
 Mapa de Stakeholders:
+- Director de Marketing
+	Interés:
+		Llevar potenciales clientes al concesionario
+	Responsabilidad:
+		Hacer las campañas necesarias para comunicar las soluciones
 - Director de Ventas
-  Interés: incrementar las ventas
-  Responsabilidad: Informar sobre las ventajas de la posventa en el momento de la venta, por lo que este servicio sería un facilitador de la compra
-- Director de Postventa
-  Interés: satisfacción del cliente para evitar reclamaciones y dañar la imagen de la marca y del propio concesionario
-  Responsabilidad: Coordinar todos los proveedores para que el cliente perciba que es atendido
-- Director de atención al cliente
-  Interés:  Establecer media de satisfacción en torno a 8/10
-  Responsabilidad: Atender llamadas en un plazo máximo de 2 horas
+	Interés:
+		Incrementar las ventas
+	Responsabilidad:
+		Informar sobre las ventajas de la posventa en el momento de la venta, por lo que este servicio sería un facilitador de la compra
+- Director de Posventa (atención al cliente)
+	Interés: 
+		Satisfacción del cliente para evitar reclamaciones y dañar la imagen de la marca y del propio concesionario
+		Establecer media de satisfacción en torno a 8/10
+	Responsabilidad:
+		Coordinar todos los proveedores para que el cliente perciba que es atendido
+		Atender llamadas en un plazo máximo de 2 horas
 - Director de Taller
-  Interés: reducir quejas por retrasos en la entrega de vehículos
-  Responsabilidad: reparar en menos de 8 horas
-- Director de Compras
-  Interés: evitar costes derivados de vehículos defectuosos
-  Responsabilidad: no admitir vehículos que superen un test de admisión
+	Interés:
+		Reducir quejas por retrasos en la entrega de vehículos
+	Responsabilidad:
+		Reparar en menos de 8 horas
+- Director de Compras y Recambios (suministros)
+	Interés:
+		Evitar costes derivados de vehículos defectuosos
+	Responsabilidad: 
+		No admitir vehículos que superen un test de admisión
 
 -- 3 ------------------------------------------------
 Ficha de la persona (descripción de usuario):
-- He puesto coche único y familiar porque me parece más dramático, ...
-
 - ¿Se avería justo al subirse al coche cuando aún está en su casa?
 - ¿Se avería en ruta?
 - ¿Es simplemente un aviso, pero no se inmoviliza el vehículo?
 
+ALICIA
+Sociodemográfico:
+	Edad: 35
+	Genero: Mujer
+	Unidad familiar: 2 adultos y 2 niños
+	Nivel cultural: Medio
+	Ingresos: 24000 €/ año
+	Uso tecnologías: móvil, pc
+Hábitos:
+	Vive a 50km del trabajo y el colegio
+	Lleva a sus hijos al colegio a las 9:00
+	Los recoge a las 17:00 volviendo de su trabajo
+	A las 18:30 horas están en su casa para las clases particulares 
+Frustraciones:
+	No llegar a tiempo al trabajo y perder alguna reunión importante
+	(si sólo perdiera el día se podría indemnizar a ella y a su empresa)
+	No poder llegar a tiempo a recoger a los hijos y que pierdan la materia
+	(si lo que puede es entregarlos a tiempo, no pasaría nada, disfrutaría del día con ellos o podríamos pagarle una guardería o clases de apoyo para lo que se pudieran haber perdido)
+	No disponer de vehículo para hacer su vida (solventa con taxi, vehículo de alquiler o sustitución)
+
+MARÍA
+Sociodemográfico:
+Hábitos:
+Frustraciones:
+
+JUAN
+Sociodemográfico:
+Hábitos:
+Frustraciones:
+
+
+
 -- 4 ------------------------------------------------
 Mapa de empatía (obtención de los puntos de dolor)
+
+ALICIA:
+Qué dice:
+- que necesita ayuda
+Qué hace:
+- llamar al teléfono de asistencia y espear una solución
+Qué piensa:
+- que todo va a salir bien y que está en buenas manos (debemos conservar este pensamiento)
+Qué siente:
+- frustración porque no sabe qué le puede pasar al coche ni si puede dedicar tiempo a resolver esta situación
+
+MARÍA:
+Qué dice:
+Qué hace:
+Qué piensa:
+Qué siente:
+
+JUAN:
+Qué dice:
+Qué hace:
+Qué piensa:
+Qué siente:
 
 
 -- 5 ------------------------------------------------
 Hills (identificación de objetivos)
-who:
-what:
-wow:
+WHO: Atención al cliente
+WHAT: Atender la llamada de auxilio
+WOW: La llamada se sirve en menos de 5 minutos
+
+WHO: Director de Taller
+WHAT: Reparación del vehículo
+WOW: El vehículo se repara en el plazo de máximo de 5 horas o se entrega un vehículo de sustitución sin coste.
+
+WHO: Director de Post venta (Atención al cliente??)
+WHAT: Coste de mantenimiento.
+WOW: si el vehículo no puede ser reparado en el momento se asumen los costes de desplazamiento en taxi hasta el lugar seleccionado por el cliente.
