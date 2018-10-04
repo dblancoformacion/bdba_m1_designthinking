@@ -1,4 +1,4 @@
---------------------------------------------------
+-- 1 ------------------------------------------------
 Traslación de la problemática lanzada (reto): CONCESIONARIO
 Usuario que tiene una incidencia (se le enciende una luz amarilla en el cuadro de mando) con su único coche modelo familiar, que aún está en garantía
 
@@ -9,12 +9,11 @@ El problema, desde el punto de vista del concesionario, es que tengamos un clien
 - para el que no estamos preparados para reparar con agilidad
 - que, si hay que enviarlo al fabricante, no disponemos de vehículo de sustitución para que él pueda seguir haciendo vida normal
 
---------------------------------------------------
 Ideas:
 - Tiene habilitado sistema de avisos en el móvil, al encenderse el piloto amarillo le llega sms con breve descripción del problema, página del manual de usuario en la que consultar, clasificación de gravedad de la incidencia, teléfono de concesionario
 - Si el fabricante monitoriza el vehículo, también podría informar al concesionario. Al estar más cerca del cliente y hacer tenido trato personal con él, podemos ofrecerle ayuda: asistencia en carretera o mecánica
 
---------------------------------------------------
+-- 2 ------------------------------------------------
 Mapa de Stakeholders:
 - Director de Ventas
   Interés: incrementar las ventas
@@ -22,14 +21,17 @@ Mapa de Stakeholders:
 - Director de Postventa
   Interés: satisfacción del cliente para evitar reclamaciones y dañar la imagen de la marca y del propio concesionario
   Responsabilidad: Coordinar todos los proveedores para que el cliente perciba que es atendido
+- Director de atención al cliente
+  Interés:  Establecer media de satisfacción en torno a 8/10
+  Responsabilidad: Atender llamadas en un plazo máximo de 2 horas
 - Director de Taller
-  Interés: 
-  Responsabilidad:
+  Interés: reducir quejas por retrasos en la entrega de vehículos
+  Responsabilidad: reparar en menos de 8 horas
 - Director de Compras
-  Interés:
-  Responsabilidad:
+  Interés: evitar costes derivados de vehículos defectuosos
+  Responsabilidad: no admitir vehículos que superen un test de admisión
 
---------------------------------------------------
+-- 3 ------------------------------------------------
 Ficha de la persona (descripción de usuario):
 - He puesto coche único y familiar porque me parece más dramático, ...
 
@@ -37,12 +39,12 @@ Ficha de la persona (descripción de usuario):
 - ¿Se avería en ruta?
 - ¿Es simplemente un aviso, pero no se inmoviliza el vehículo?
 
---------------------------------------------------
+-- 4 ------------------------------------------------
 Mapa de empatía (obtención de los puntos de dolor)
 
 
---------------------------------------------------
+-- 5 ------------------------------------------------
 Hills (identificación de objetivos)
 who:
 what:
-how:
+wow:
