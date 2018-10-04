@@ -1,7 +1,8 @@
 --------------------------------------------------
-Problemática:
+Traslación de la problemática lanzada (reto): CONCESIONARIO
 Usuario que tiene una incidencia (se le enciende una luz amarilla en el cuadro de mando) con su único coche modelo familiar, que aún está en garantía
 
+Problemática aterrizada y contextualizada:
 El problema, desde el punto de vista del concesionario, es que tengamos un cliente que nos pueda responsabilizar de que le hayamos vendido un vehículo:
 - que no cumpla los estándares de calidad del sector en el momento actual
 - que vendimos sabiendo que podría fallar
@@ -29,12 +30,19 @@ Mapa de Stakeholders:
   Responsabilidad:
 
 --------------------------------------------------
-Descripción de usuario:
+Ficha de la persona (descripción de usuario):
 - He puesto coche único y familiar porque me parece más dramático, ...
 
+- ¿Se avería justo al subirse al coche cuando aún está en su casa?
+- ¿Se avería en ruta?
+- ¿Es simplemente un aviso, pero no se inmoviliza el vehículo?
+
 --------------------------------------------------
-Mapa de empatía
+Mapa de empatía (obtención de los puntos de dolor)
 
 
 --------------------------------------------------
-Hills
+Hills (identificación de objetivos)
+who:
+what:
+how:
